@@ -1,0 +1,18 @@
+someAlgorithm(int n)
+{
+   Assignment
+   for(i=0; i<n; i++)
+     for(j=0; j<=i; j++)
+       arithmetic operation
+   output
+}
+In this code 
+for the  loops :
+First loop :for(i=0; i<n; i++)
+Second nested loop :for(j=0; j<=i; j++)
+The first loop runs n times which means it has the time complexity O(n).
+The nested loop runs up to the value of i.
+This means that when the total operation runs it creates the series 1,2,3,..,n.
+We can express this in the form of n(n+1)/2 =n^2+n/2.
+The dominant term is n^2.
+So, the time complexity of the algorithm is O(n^2). 

@@ -1,0 +1,21 @@
+someAlgorithm(int n)
+{
+   Assignment   
+   for(i=n-2; i>=1; i--) 
+     Arithmetic operation
+   Output
+   for(i=0; i<n; i++) 
+     Comparison
+   for(i=0; i<6; i++)
+     Assignment
+}
+
+In this code 
+for the first loop :
+for(i=n-2; i>=1; i--) this loop runs (n-2) times : So the time complexity is O(n).
+for the second loop:
+for(i=0; i<n; i++)  this loop runs n times : so its time complexity is O(n).
+for the third loop:
+for(i=0; i<6; i++) this loop runs 6 times : so its time complexity is O(1).
+Final Time Complexity:
+O(n)+O(n)+0(1) =O(n)

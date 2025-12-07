@@ -1,0 +1,25 @@
+someAlgorithm(int n)
+{
+   Input
+   for(i=0; i<n; i++)
+   {
+     for(i=n; i>=1; i/=2)
+       Arithmetic operation
+     for(j=0; j<n; j++)
+       Comparison
+   }
+   Arithmetic operation
+   Output
+}
+In this code 
+for the first loop :
+for(i=0; i<n; i++) this loop runs n times : So the time complexity is O(n).
+for the nested loops :
+first nested loop:
+for(i=n; i>=1; i/=2) the loop runs n/2 times :So the time complexity is O(logn).
+second nested loop:
+ for(j=0; j<n; j++) the loop runs n times :So the time complexity is O(n).
+Now for the final complexity:
+Final time complexity = outer loop(inner loop 1 + inner loop 2) = n(log n + n) = O(n^2 + nlogn)
+Here the most dominant term is n^2.
+So the final time complexity of the algorithm is O(n^2). 

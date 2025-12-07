@@ -1,0 +1,29 @@
+someAlgorithm(int n)
+{
+   input    
+   for(i=0; i<n; i++) 
+     for(j=0; j<n; j++)
+       for(k=0; k<n; k++) 
+         comparison
+   arithmetic operation
+   for(i=0; i<n; i++)
+     for(j=10; j>=1; j--)
+       assignment
+}
+In this code 
+for the first three loops :
+for(i=0; i<n; i++) 
+     for(j=0; j<n; j++)
+       for(k=0; k<n; k++) 
+All the loop runs n times O(n).Which means the time complexity of the triple loop is O(n^3)
+
+Now for the second part:
+first loop : for(i=0; i<n; i++)
+second loop : for(j=10; j>=1; j--)
+The first loop runs n times which means its time complexity is O(n).
+The second loop runs 10 times which is constant so its time complexity is O(10).
+As 0(10) is ignored the final time complexity becomes O(n) for this part.
+Now,
+Final time complexity = O(n^3)+O(n)
+Here the most dominant term is n^3.
+So the final time complexity of the algorithm is O(n^3). 

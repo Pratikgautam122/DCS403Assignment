@@ -1,0 +1,10 @@
+someAlgorithm(int n)
+{
+   Assignment
+   for(i=n; i>=1; i/=2)
+     Arithmetic operation
+   Output
+}
+In this code 
+for the  loop :
+ for(i=n; i>=1; i/=2) in this loop n divided by 2 each times so it runs n/2 times: So the time complexity is O(logn) for the algorithm.

@@ -10,6 +10,7 @@ void reverseString(string &s, int start, int end) {
 
 int main() {
     string s;
+    cout<<"Enter the string :"<<endl;
     cin >> s;
     reverseString(s, 0, s.length() - 1);
     cout << s << endl;

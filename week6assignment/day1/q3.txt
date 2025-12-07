@@ -1,0 +1,10 @@
+someAlgorithm(int n)
+{
+   Input
+   for(i=1; i<=n; i=i+5) 
+     Comparison
+   Output
+}
+In this code 
+for the  loop :
+ for(i=1; i<=n; i=i+5) in this loop i increases by 5 each times so it runs n/5 times: So the time complexity is O(n/5) =O(n)for the algorithm.
